@@ -1,6 +1,5 @@
 package it.epicode;
 
-import it.epicode.datamodels.Elementi;
 import it.epicode.datamodels.Libri;
 import it.epicode.datamodels.Periodicità;
 import it.epicode.datamodels.Riviste;
@@ -12,18 +11,18 @@ public class Program {
 
 	public static OperazioniService popolamentoDati() {
 
-		Elementi primoLibro = new Libri("9876543210482", "Libro1", "2022", 126, "Autore1", "Genere1");
-		Elementi secondoLibro = new Libri("9378920462784", "Libro2", "2021", 221, "Autore2", "Genere2");
-		Elementi terzoLibro = new Libri("7365014962315", "Libro3", "2020", 173, "Autore3", "Genere3");
-		Elementi quartoLibro = new Libri("2849164518900", "Libro4", "2019", 225, "Autore4", "Genere4");
-		Elementi quintoLibro = new Libri("2674892554122", "Libro5", "2018", 105, "Autore5", "Genere5");
+		Libri primoLibro = new Libri("9876543210482", "Libro1", "2022", 126, "Autore1", "Genere1");
+		Libri secondoLibro = new Libri("9378920462784", "Libro2", "2021", 221, "Autore2", "Genere2");
+		Libri terzoLibro = new Libri("7365014962315", "Libro3", "2020", 173, "Autore3", "Genere3");
+		Libri quartoLibro = new Libri("2849164518900", "Libro4", "2019", 225, "Autore4", "Genere4");
+		Libri quintoLibro = new Libri("2674892554122", "Libro5", "2018", 105, "Autore5", "Genere5");
 
-		Elementi primaRivista = new Riviste("8902637846111", "Rivista1", "2022", 18, Periodicità.SETTIMANALE);
-		Elementi secondaRivista = new Riviste("009368728194", "Rivista2", "2021", 28, Periodicità.MENSILE);
-		Elementi terzaRivista = new Riviste("6637285201774", "Rivista3", "2020", 53, Periodicità.SEMESTRALE);
-		Elementi quartaRivista = new Riviste("7283366499051", "Rivista4", "2019", 30, Periodicità.SETTIMANALE);
-		Elementi quintaRivista = new Riviste("2552266784915", "Rivista5", "2018", 22, Periodicità.MENSILE);
-		Elementi sestaRivista = new Riviste("3389025537110", "Rivista6", "2017", 60, Periodicità.SEMESTRALE);
+		Riviste primaRivista = new Riviste("8902637846111", "Rivista1", "2022", 18, Periodicità.SETTIMANALE);
+		Riviste secondaRivista = new Riviste("009368728194", "Rivista2", "2021", 28, Periodicità.MENSILE);
+		Riviste terzaRivista = new Riviste("6637285201774", "Rivista3", "2020", 53, Periodicità.SEMESTRALE);
+		Riviste quartaRivista = new Riviste("7283366499051", "Rivista4", "2019", 30, Periodicità.SETTIMANALE);
+		Riviste quintaRivista = new Riviste("2552266784915", "Rivista5", "2018", 22, Periodicità.MENSILE);
+		Riviste sestaRivista = new Riviste("3389025537110", "Rivista6", "2017", 60, Periodicità.SEMESTRALE);
 
 		service.aggiungiElemento(primoLibro);
 		service.aggiungiElemento(secondoLibro);

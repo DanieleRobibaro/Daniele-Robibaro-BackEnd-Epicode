@@ -1,0 +1,7 @@
+
+1)
+
+postazioni ->cod univoco, descrizione, tipo(Enum)[PRIVATO, OPENSPACE, SALA RIUNIONI], n°max occupanti, edificio, lista di prenotazioni
+edificio ->nome, indirizzo, città
+utente-> username, nome completo, email, lista di prenotazioni
+prenotazione-> data, postazione
